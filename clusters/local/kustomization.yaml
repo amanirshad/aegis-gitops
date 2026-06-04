@@ -3,6 +3,6 @@ kind: Kustomization
 
 resources:
   - argocd
-  - observability
+  - observability/application.yaml
   - platform
   - applications
