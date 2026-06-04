@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources: 
   - components/prometheus/application.yaml
-  - componets/prometheus-crds/application.yaml
+  - components/prometheus-crds/application.yaml
