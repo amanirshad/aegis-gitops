@@ -4,3 +4,4 @@ kind: Kustomization
 resources: 
   - components/prometheus/application.yaml
   - components/prometheus-crds/application.yaml
+  - components/ingress-nginx/application.yaml
