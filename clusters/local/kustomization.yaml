@@ -5,4 +5,4 @@ resources:
   - argocd
   - observability/application.yaml
   - platform
-  - applications
+  - apps
