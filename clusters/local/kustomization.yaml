@@ -4,5 +4,6 @@ kind: Kustomization
 resources:
   - argocd
   - observability/application.yaml
+  - networking/application.yaml
   - platform
   - apps

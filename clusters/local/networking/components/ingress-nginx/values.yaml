@@ -2,6 +2,10 @@ controller:
   replicaCount: 1
 
   metrics:
+    serviceMonitor:
+      enabled: true
+      additionalLabels:
+        release: prometheus
     enabled: true
 
   service:
